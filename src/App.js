@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <div className="pt-20">
+        <div className="pt-20 bg-gradient-to-br from-dark-900 via-dark-800 to-dark-900">
           <Routes>
           <Route path="/" element={
             <>

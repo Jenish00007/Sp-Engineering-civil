@@ -193,8 +193,12 @@ code {
 @media (max-width: 768px) {
   .container {
     padding: 0 0.75rem;
+    
   }
-  
+
+   .pt-20 {
+    padding-top: 5;
+  }
   .btn {
     padding: 0.625rem 1.25rem;
     font-size: 0.875rem;
