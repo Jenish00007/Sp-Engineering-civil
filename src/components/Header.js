@@ -22,13 +22,12 @@ const Header = () => {
   ];
 
   return (
-    <header className={`mobile-header fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-dark-900 shadow-hard backdrop-blur-md border-b border-secondary-600' : 'bg-dark-900 backdrop-blur-sm border-b border-secondary-500'
-    }`}>
+    <header className={`mobile-header fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-dark-900 shadow-hard backdrop-blur-md border-b border-secondary-600' : 'bg-dark-900 backdrop-blur-sm border-b border-secondary-500'
+      }`}>
       <div className="container">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3 group">
+          <Link to="/" className="flex items-center space-x-3 group" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
             <div className="w-12 h-12 bg-gradient-to-br from-secondary-500 to-secondary-600 rounded-xl flex items-center justify-center shadow-gold group-hover:shadow-medium transition-all duration-300 group-hover:scale-105">
               <span className="text-dark-900 font-bold text-xl">PD</span>
             </div>
@@ -44,6 +43,7 @@ const Header = () => {
               <Link
                 key={item.name}
                 to={item.path}
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                 className="relative py-2 px-4 text-white hover:text-secondary-400 transition-all duration-300 font-semibold group"
               >
                 <span className="relative z-10">{item.name}</span>
@@ -64,7 +64,7 @@ const Header = () => {
                 <span className="font-semibold">info@prodelmanagement.com</span>
               </div>
             </div>
-            <Link to="/contact" className="btn btn-primary">
+            <Link to="/contact" className="btn btn-primary" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
               Get Quote
             </Link>
           </div>
@@ -89,13 +89,16 @@ const Header = () => {
                     key={item.name}
                     to={item.path}
                     className="block py-3 px-4 text-lg text-white hover:text-secondary-400 hover:bg-dark-800 rounded-lg transition-all duration-300 font-semibold"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={() => {
+                      setIsMenuOpen(false);
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }}
                   >
                     {item.name}
                   </Link>
                 ))}
               </div>
-              
+
               {/* Mobile Contact Info */}
               <div className="pt-4 border-t border-secondary-600 space-y-4">
                 <div className="flex items-center space-x-3 text-secondary-300">
@@ -111,12 +114,15 @@ const Header = () => {
                   <span className="font-semibold">Project Sites Nationwide</span>
                 </div>
               </div>
-              
+
               <div className="pt-4">
-                <Link 
-                  to="/contact" 
+                <Link
+                  to="/contact"
                   className="btn btn-primary w-full text-center"
-                  onClick={() => setIsMenuOpen(false)}
+                  onClick={() => {
+                    setIsMenuOpen(false);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
                 >
                   Get Quote
                 </Link>
