@@ -7,11 +7,11 @@ const Footer = () => {
 
   const footerLinks = {
     services: [
-      { name: 'Fleet Management', path: '/fleet-management' },
-      { name: 'General Freight', path: '/general-freight' },
-      { name: 'Managed Transportation', path: '/managed-transportation' },
-      { name: 'Fulfillment & Distribution', path: '/fulfillment-distribution' },
-      { name: 'Final Mile Delivery', path: '/final-mile-delivery' }
+      { name: 'Project Management', path: '/project-management' },
+      { name: 'Delivery Management', path: '/delivery-management' },
+      { name: 'Process Optimization', path: '/process-optimization' },
+      { name: 'Implementation & Rollout', path: '/implementation-rollout' },
+      { name: 'Quality Assurance', path: '/quality-assurance' }
     ],
     company: [
       { name: 'About Us', path: '/about' },
@@ -21,11 +21,11 @@ const Footer = () => {
       { name: 'Contact Us', path: '/contact' }
     ],
     resources: [
-      { name: 'Tracking', path: '/tracking' },
-      { name: 'Transit Times', path: '/transit-times' },
-      { name: 'Delivery Receipt', path: '/delivery-receipt' },
-      { name: 'Fuel Surcharge', path: '/fuel-surcharge' },
-      { name: 'Customer Service', path: '/customer-service' }
+      { name: 'Project Tracking', path: '/project-tracking' },
+      { name: 'Delivery Status', path: '/delivery-status' },
+      { name: 'Progress Reports', path: '/progress-reports' },
+      { name: 'Quality Metrics', path: '/quality-metrics' },
+      { name: 'Customer Support', path: '/customer-support' }
     ],
     legal: [
       { name: 'Privacy Policy', path: '/privacy' },
@@ -51,30 +51,30 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
               <div className="w-10 h-10 bg-secondary-600 rounded-lg flex items-center justify-center shadow-gold">
-                <span className="text-dark-900 font-bold text-lg">ST</span>
+                <span className="text-dark-900 font-bold text-lg">PD</span>
               </div>
-              <span className="text-xl font-bold font-display">Speedy Transport</span>
+              <span className="text-xl font-bold font-display">ProDel Management</span>
             </div>
             
             <p className="text-secondary-300 mb-6 leading-relaxed">
-              Founded in 1914, Speedy Transport is one of Canada's largest and most trusted 
-              transportation and logistics service providers, specializing in fleet management, 
-              general freight, and supply chain solutions.
+              Founded in 1999, ProDel Management is one of the nation's most trusted 
+              project delivery and management service providers, specializing in project management, 
+              delivery optimization, and implementation solutions.
             </p>
 
             {/* Contact Info */}
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-secondary-500" />
-                <span className="text-secondary-300">800.265.5351</span>
+                <span className="text-secondary-300">1-800-PRO-DEL</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-secondary-500" />
-                <span className="text-secondary-300">information@speedy.ca</span>
+                <span className="text-secondary-300">info@prodelmanagement.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-secondary-500" />
-                <span className="text-secondary-300">265 RUTHERFORD RD S, BRAMPTON ON</span>
+                <span className="text-secondary-300">Project Sites Nationwide</span>
               </div>
             </div>
 
@@ -152,7 +152,7 @@ const Footer = () => {
         <div className="container py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-secondary-400 text-sm">
-              © {currentYear} Speedy Transport. All rights reserved.
+              © {currentYear} ProDel Management. All rights reserved.
             </div>
             
             <div className="flex space-x-6 text-sm">

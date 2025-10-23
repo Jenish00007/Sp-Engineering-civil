@@ -61,7 +61,7 @@ const Testimonials = () => {
             What Our Customers Say
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Hear from our valued customers about their experience with Speedy Transport
+            Hear from our valued customers about their experience with ProDel Management
           </p>
         </motion.div>
 
@@ -182,7 +182,7 @@ const Testimonials = () => {
             Ready to Experience the Difference?
           </h3>
           <p className="text-gray-600 mb-8">
-            Join thousands of satisfied customers who trust Speedy Transport
+            Join thousands of satisfied customers who trust ProDel Management
           </p>
           <a href="#contact" className="btn btn-primary btn-large">
             Start Your Journey
