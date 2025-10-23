@@ -1,43 +1,43 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { HardHat, Wrench, Building, MapPin, ArrowRight } from 'lucide-react';
+import { Truck, Package, MapPin, Globe, ArrowRight } from 'lucide-react';
 
 const Services = () => {
   const services = [
     {
-      icon: MapPin,
-      title: 'Highway Construction',
-      description: 'Complete highway and roadway construction services including design, engineering, and implementation.',
+      icon: Truck,
+      title: 'Project Management',
+      description: 'Complete project management services including planning, execution, and delivery.',
       color: 'orange',
-      features: ['Road Design', 'Asphalt Paving', 'Traffic Management', 'Safety Compliance']
+      features: ['Project Planning', 'Resource Management', 'Risk Assessment', 'Quality Control']
     },
     {
-      icon: Building,
-      title: 'Bridge Construction',
-      description: 'Specialized bridge construction and rehabilitation services for all types of infrastructure projects.',
+      icon: Package,
+      title: 'Delivery Management',
+      description: 'Expert delivery management services for complex projects and multi-phase implementations.',
       color: 'blue',
-      features: ['Bridge Design', 'Structural Engineering', 'Concrete Work', 'Quality Assurance']
+      features: ['Multi-Phase Delivery', 'Timeline Management', 'Stakeholder Coordination', 'Progress Tracking']
     },
     {
-      icon: Wrench,
-      title: 'Infrastructure Development',
-      description: 'Comprehensive infrastructure development including utilities, drainage systems, and public works.',
+      icon: Globe,
+      title: 'Process Optimization',
+      description: 'Engineered process optimization solutions for improved efficiency and faster delivery.',
       color: 'green',
-      features: ['Utility Installation', 'Drainage Systems', 'Public Works', 'Environmental Compliance']
+      features: ['Process Analysis', 'Cost Optimization', 'Enhanced Efficiency', 'Technology Integration']
     },
     {
       icon: MapPin,
-      title: 'Site Development',
-      description: 'Complete site preparation, grading, and development services for commercial and residential projects.',
+      title: 'Implementation & Rollout',
+      description: 'Nationwide implementation services for customized project rollouts and system deployments.',
       color: 'purple',
-      features: ['Site Preparation', 'Grading & Excavation', 'Utility Connections', 'Landscaping']
+      features: ['System Implementation', 'Training & Support', 'Rollout Management', 'Change Management']
     },
     {
-      icon: HardHat,
-      title: 'Heavy Civil Construction',
-      description: 'Large-scale civil construction projects including dams, tunnels, and major infrastructure.',
+      icon: Truck,
+      title: 'Quality Assurance',
+      description: 'Comprehensive quality assurance and testing services to ensure successful project completion.',
       color: 'red',
-      features: ['Large Projects', 'Heavy Equipment', 'Safety Management', 'Project Management']
+      features: ['Quality Testing', 'Performance Validation', 'Compliance Verification', 'Customer Satisfaction']
     }
   ];
 
@@ -64,7 +64,7 @@ const Services = () => {
             Our Services
           </h2>
           <p className="text-xl text-secondary-300 max-w-3xl mx-auto">
-            Professional civil construction and engineering services for infrastructure development
+            Comprehensive project delivery and management solutions for businesses nationwide
           </p>
         </motion.div>
 
@@ -126,17 +126,17 @@ const Services = () => {
         >
           <div className="bg-gradient-to-r from-secondary-600 to-secondary-700 rounded-2xl p-12 text-dark-900 shadow-gold">
             <h3 className="text-3xl font-bold mb-4 font-display">
-              Ready to Build Together?
+              Ready to Deliver Together?
             </h3>
             <p className="text-xl mb-8 opacity-90">
-              Contact us today to discuss your civil construction and infrastructure needs
+              Contact us today to discuss your project delivery and management needs
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="#contact" className="btn bg-dark-900 text-secondary-400 hover:bg-dark-800 btn-large">
                 Get a Quote
               </a>
-              <a href="tel:1-800-SP-ENGINEERING" className="btn border-2 border-dark-900 text-dark-900 hover:bg-dark-900 hover:text-secondary-400 btn-large">
-                Call 1-800-SP-ENGINEERING
+              <a href="tel:1-800-PRO-DEL" className="btn border-2 border-dark-900 text-dark-900 hover:bg-dark-900 hover:text-secondary-400 btn-large">
+                Call 1-800-PRO-DEL
               </a>
             </div>
           </div>

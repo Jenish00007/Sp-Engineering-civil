@@ -30,11 +30,11 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
             <div className="w-12 h-12 bg-gradient-to-br from-secondary-500 to-secondary-600 rounded-xl flex items-center justify-center shadow-gold group-hover:shadow-medium transition-all duration-300 group-hover:scale-105">
-              <span className="text-dark-900 font-bold text-xl">SP</span>
+              <span className="text-dark-900 font-bold text-xl">PD</span>
             </div>
             <div className="flex flex-col">
-              <span className="text-xl font-bold text-white group-hover:text-secondary-400 transition-colors font-display">SP Engineering</span>
-              <span className="text-xs text-secondary-300 font-medium">Civil Construction</span>
+              <span className="text-xl font-bold text-white group-hover:text-secondary-400 transition-colors font-display">ProDel Management</span>
+              <span className="text-xs text-secondary-300 font-medium">Project Delivery</span>
             </div>
           </Link>
 
@@ -57,11 +57,11 @@ const Header = () => {
             <div className="flex items-center space-x-4 text-sm text-secondary-300">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-secondary-500" />
-                <span className="font-semibold">1-800-SP-ENGINEERING</span>
+                <span className="font-semibold">1-800-PRO-DEL</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-secondary-500" />
-                <span className="font-semibold">info@spengineering.com</span>
+                <span className="font-semibold">info@prodelmanagement.com</span>
               </div>
             </div>
             <Link to="/contact" className="btn btn-primary">
@@ -100,15 +100,15 @@ const Header = () => {
               <div className="pt-4 border-t border-secondary-600 space-y-4">
                 <div className="flex items-center space-x-3 text-secondary-300">
                   <Phone className="w-5 h-5 text-secondary-500" />
-                  <span className="font-semibold">1-800-SP-ENGINEERING</span>
+                  <span className="font-semibold">1-800-PRO-DEL</span>
                 </div>
                 <div className="flex items-center space-x-3 text-secondary-300">
                   <Mail className="w-5 h-5 text-secondary-500" />
-                  <span className="font-semibold">info@spengineering.com</span>
+                  <span className="font-semibold">info@prodelmanagement.com</span>
                 </div>
                 <div className="flex items-center space-x-3 text-secondary-300">
                   <MapPin className="w-5 h-5 text-secondary-500" />
-                  <span className="font-semibold">Construction Sites Nationwide</span>
+                  <span className="font-semibold">Project Sites Nationwide</span>
                 </div>
               </div>
               

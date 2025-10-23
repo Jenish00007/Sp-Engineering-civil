@@ -8,19 +8,19 @@ const About = () => {
       icon: Award,
       number: '25+',
       label: 'Years of Excellence',
-      description: 'Building since 1999'
+      description: 'Delivering since 1999'
     },
     {
       icon: HardHat,
       number: '500+',
       label: 'Projects Completed',
-      description: 'Infrastructure projects'
+      description: 'Nationwide'
     },
     {
       icon: Users,
       number: '100+',
-      label: 'Licensed Engineers',
-      description: 'Expert professionals'
+      label: 'Expert Professionals',
+      description: 'Project specialists'
     },
     {
       icon: Target,
@@ -33,19 +33,19 @@ const About = () => {
   const values = [
     {
       title: 'Quality',
-      description: 'Delivering superior construction work that meets the highest industry standards.'
+      description: 'Delivering superior project management services that meet the highest industry standards.'
     },
     {
       title: 'Innovation',
-      description: 'Using cutting-edge technology and modern construction methods.'
+      description: 'Using cutting-edge technology and modern project management solutions.'
     },
     {
       title: 'Safety',
-      description: 'Committed to the highest safety standards for our team and the public.'
+      description: 'Committed to the highest safety standards for our team and customers.'
     },
     {
       title: 'Excellence',
-      description: 'Driven to exceed expectations in every project we undertake.'
+      description: 'Driven to exceed expectations in every project we deliver.'
     }
   ];
 
@@ -65,14 +65,14 @@ const About = () => {
             </h2>
             
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              SP Engineering Civil Construction is a leading provider of infrastructure development 
-              and civil construction services, specializing in highways, bridges, and major infrastructure projects.
+              ProDel Management is one of the nation's most trusted project delivery and management 
+              service providers, specializing in project management, delivery optimization, and implementation solutions.
             </p>
             
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Driven by innovation and supported by our team of licensed engineers, we deliver 
-              complex construction projects with precision and excellence. Our commitment to quality 
-              and safety has made us a trusted partner for infrastructure development across the region.
+              Driven by innovation and supported by our team of expert project managers and delivery specialists, we deliver 
+              complex project solutions with precision and excellence. Our commitment to quality 
+              and safety has made us a trusted partner for businesses nationwide.
             </p>
 
             {/* Company Values */}
@@ -142,10 +142,10 @@ const About = () => {
             Our Mission
           </h3>
           <p className="text-xl opacity-90 max-w-4xl mx-auto leading-relaxed">
-            To deliver exceptional civil construction and infrastructure development services 
-            that build stronger communities and drive economic growth. We are committed to 
-            delivering projects with the highest standards of quality, safety, and environmental 
-            responsibility while exceeding client expectations.
+            To deliver exceptional project delivery and management services 
+            that connect businesses and drive operational excellence nationwide. We are committed to 
+            delivering projects with the highest standards of quality, safety, and efficiency 
+            while exceeding customer expectations.
           </p>
         </motion.div>
 
@@ -162,10 +162,10 @@ const About = () => {
           </h3>
           <div className="grid md:grid-cols-4 gap-8">
             {[
-              { year: '1999', title: 'Founded', description: 'SP Engineering established' },
-              { year: '2005', title: 'Growth', description: 'Major infrastructure projects' },
-              { year: '2015', title: 'Innovation', description: 'Advanced construction technology' },
-              { year: 'Today', title: 'Leadership', description: 'Leading civil construction firm' }
+              { year: '1999', title: 'Founded', description: 'ProDel Management established' },
+              { year: '2005', title: 'Growth', description: 'National project delivery network' },
+              { year: '2015', title: 'Innovation', description: 'Advanced project management technology' },
+              { year: 'Today', title: 'Leadership', description: 'Leading project delivery company' }
             ].map((milestone, index) => (
               <motion.div
                 key={milestone.year}

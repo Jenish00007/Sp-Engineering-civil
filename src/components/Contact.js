@@ -41,25 +41,25 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Call Us',
-      details: ['1-800-SP-ENGINEERING', 'Available 24/7'],
+      details: ['1-800-PRO-DEL', 'Available 24/7'],
       color: 'blue'
     },
     {
       icon: Mail,
       title: 'Email Us',
-      details: ['info@spengineering.com', 'We\'ll respond within 24 hours'],
+      details: ['info@prodelmanagement.com', 'We\'ll respond within 24 hours'],
       color: 'green'
     },
     {
       icon: MapPin,
       title: 'Visit Us',
-      details: ['Construction sites nationwide', 'Find your nearest project'],
+      details: ['Project Sites Nationwide', 'Find your nearest location'],
       color: 'purple'
     },
     {
       icon: Clock,
       title: 'Business Hours',
-      details: ['Monday - Friday: 7AM - 5PM', 'Emergency construction available 24/7'],
+      details: ['Monday - Friday: 7AM - 5PM', 'Emergency project support available 24/7'],
       color: 'orange'
     }
   ];
@@ -86,8 +86,8 @@ const Contact = () => {
             Contact Us
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Whether you're planning a major infrastructure project or need expert civil construction services, 
-            our team of licensed engineers and construction professionals is ready to help bring your vision to life.
+            Whether you need project delivery, management solutions, or implementation services, 
+            our team of project experts and delivery professionals is ready to help move your business forward.
           </p>
         </motion.div>
 
@@ -191,11 +191,11 @@ const Contact = () => {
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
                     >
                       <option value="">Select a service</option>
-                      <option value="highway-construction">Highway Construction</option>
-                      <option value="bridge-construction">Bridge Construction</option>
-                      <option value="infrastructure-development">Infrastructure Development</option>
-                      <option value="site-development">Site Development</option>
-                      <option value="heavy-civil-construction">Heavy Civil Construction</option>
+                      <option value="project-management">Project Management</option>
+                      <option value="delivery-management">Delivery Management</option>
+                      <option value="process-optimization">Process Optimization</option>
+                      <option value="implementation-rollout">Implementation & Rollout</option>
+                      <option value="quality-assurance">Quality Assurance</option>
                       <option value="other">Other</option>
                     </select>
                   </div>
@@ -211,7 +211,7 @@ const Contact = () => {
                       required
                       rows={4}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors resize-none"
-                      placeholder="Tell us about your construction project needs..."
+                      placeholder="Tell us about your project delivery and management needs..."
                     />
                   </div>
 
@@ -240,7 +240,7 @@ const Contact = () => {
                 Get Answers Quickly
               </h3>
               <p className="text-gray-600 mb-8">
-                Our team of licensed engineers and construction experts is ready to help you plan and execute your infrastructure project.
+                Our team of project experts and delivery specialists is ready to help you plan and execute your project needs.
               </p>
             </div>
 
@@ -284,14 +284,14 @@ const Contact = () => {
                 Need Immediate Assistance?
               </h4>
               <p className="mb-4 opacity-90">
-                Call our 24/7 emergency construction line for urgent infrastructure needs.
+                Call our 24/7 emergency project support line for urgent delivery needs.
               </p>
               <a
-                href="tel:1-800-SP-ENGINEERING"
+                href="tel:1-800-PRO-DEL"
                 className="inline-flex items-center text-lg font-semibold hover:underline"
               >
                 <Phone className="w-5 h-5 mr-2" />
-                1-800-SP-ENGINEERING
+                1-800-PRO-DEL
               </a>
             </motion.div>
           </motion.div>

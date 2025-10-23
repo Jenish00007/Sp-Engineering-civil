@@ -1,13 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, HardHat, Shield, Clock, Users } from 'lucide-react';
+import { ArrowRight, Truck, Shield, Clock, Users } from 'lucide-react';
 
 const Hero = () => {
   const features = [
     {
-      icon: HardHat,
-      title: 'Expert Construction',
-      description: 'Professional civil engineering and construction services'
+      icon: Truck,
+      title: 'Project Management',
+      description: 'Comprehensive project delivery and management solutions'
     },
     {
       icon: Shield,
@@ -16,13 +16,13 @@ const Hero = () => {
     },
     {
       icon: Clock,
-      title: 'On-Time Completion',
+      title: 'On-Time Delivery',
       description: 'Reliable project delivery within budget and schedule'
     },
     {
       icon: Users,
       title: 'Expert Team',
-      description: 'Licensed engineers and skilled construction professionals'
+      description: 'Professional project managers and delivery specialists'
     }
   ];
 
@@ -50,8 +50,8 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight font-display"
             >
-              Building the{' '}
-              <span className="text-secondary-400">Future</span>
+              Delivering{' '}
+              <span className="text-secondary-400">Excellence</span>
             </motion.h1>
             
             <motion.p
@@ -60,9 +60,9 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-xl text-secondary-200 mb-8 leading-relaxed"
             >
-              SP Engineering Civil Construction delivers exceptional infrastructure projects 
-              with precision, safety, and innovation. From highways to bridges, we build 
-              the foundations that connect communities and drive progress.
+              ProDel Management delivers exceptional project delivery and management services 
+              with precision, safety, and innovation. From concept to completion, we deliver 
+              projects that drive business success and operational excellence.
             </motion.p>
 
             <motion.div
@@ -127,7 +127,7 @@ const Hero = () => {
           </div>
           <div className="bg-dark-800/80 backdrop-blur-sm rounded-lg p-6 shadow-hard border border-secondary-600/30">
             <div className="text-3xl font-bold text-secondary-400 mb-2">100+</div>
-            <div className="text-secondary-300">Licensed Engineers</div>
+            <div className="text-secondary-300">Expert Professionals</div>
           </div>
           <div className="bg-dark-800/80 backdrop-blur-sm rounded-lg p-6 shadow-hard border border-secondary-600/30">
             <div className="text-3xl font-bold text-secondary-400 mb-2">100%</div>

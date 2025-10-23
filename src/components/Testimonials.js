@@ -61,7 +61,7 @@ const Testimonials = () => {
             What Our Customers Say
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Hear from our valued customers about their experience with Canada Cartage
+            Hear from our valued customers about their experience with Speedy Transport
           </p>
         </motion.div>
 
@@ -182,7 +182,7 @@ const Testimonials = () => {
             Ready to Experience the Difference?
           </h3>
           <p className="text-gray-600 mb-8">
-            Join thousands of satisfied customers who trust Canada Cartage
+            Join thousands of satisfied customers who trust Speedy Transport
           </p>
           <a href="#contact" className="btn btn-primary btn-large">
             Start Your Journey
