@@ -8,46 +8,38 @@ const Services = () => {
       icon: Truck,
       title: 'Project Management',
       description: 'Complete project management services including planning, execution, and delivery.',
-      color: 'orange',
+      accentClass: 'bg-orange-500/10 border-orange-500/30 text-orange-400',
       features: ['Project Planning', 'Resource Management', 'Risk Assessment', 'Quality Control']
     },
     {
       icon: Package,
       title: 'Delivery Management',
       description: 'Expert delivery management services for complex projects and multi-phase implementations.',
-      color: 'blue',
+      accentClass: 'bg-blue-500/10 border-blue-500/30 text-blue-400',
       features: ['Multi-Phase Delivery', 'Timeline Management', 'Stakeholder Coordination', 'Progress Tracking']
     },
     {
       icon: Globe,
       title: 'Process Optimization',
       description: 'Engineered process optimization solutions for improved efficiency and faster delivery.',
-      color: 'green',
+      accentClass: 'bg-green-500/10 border-green-500/30 text-green-400',
       features: ['Process Analysis', 'Cost Optimization', 'Enhanced Efficiency', 'Technology Integration']
     },
     {
       icon: MapPin,
       title: 'Implementation & Rollout',
       description: 'Nationwide implementation services for customized project rollouts and system deployments.',
-      color: 'purple',
+      accentClass: 'bg-purple-500/10 border-purple-500/30 text-purple-400',
       features: ['System Implementation', 'Training & Support', 'Rollout Management', 'Change Management']
     },
     {
       icon: Truck,
       title: 'Quality Assurance',
       description: 'Comprehensive quality assurance and testing services to ensure successful project completion.',
-      color: 'red',
+      accentClass: 'bg-red-500/10 border-red-500/30 text-red-400',
       features: ['Quality Testing', 'Performance Validation', 'Compliance Verification', 'Customer Satisfaction']
     }
   ];
-
-  const colorClasses = {
-    blue: 'bg-blue-500/10 border-blue-500/30 text-blue-400',
-    green: 'bg-green-500/10 border-green-500/30 text-green-400',
-    purple: 'bg-purple-500/10 border-purple-500/30 text-purple-400',
-    orange: 'bg-orange-500/10 border-orange-500/30 text-orange-400',
-    red: 'bg-red-500/10 border-red-500/30 text-red-400'
-  };
 
   return (
     <section id="services" className="py-20 bg-dark-800">
@@ -80,8 +72,8 @@ const Services = () => {
               className="bg-dark-900/80 backdrop-blur-sm rounded-xl p-8 shadow-hard hover:shadow-gold transition-all duration-300 border border-secondary-600/30 group"
             >
               {/* Service Icon */}
-              <div className={`w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 border ${colorClasses[service.color] || 'bg-secondary-500/20 border-secondary-600/30 text-secondary-400'}`}>
-                <service.icon className="w-8 h-8" />
+              <div className={`w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 border ${service.accentClass || 'bg-secondary-500/20 border-secondary-600/30 text-secondary-400'}`}>
+                <service.icon className="w-8 h-8 text-current" />
               </div>
 
               {/* Service Title */}
