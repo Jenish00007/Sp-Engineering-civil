@@ -42,11 +42,11 @@ const Services = () => {
   ];
 
   const colorClasses = {
-    blue: 'bg-blue-50 border-blue-200 text-blue-600',
-    green: 'bg-green-50 border-green-200 text-green-600',
-    purple: 'bg-purple-50 border-purple-200 text-purple-600',
-    orange: 'bg-orange-50 border-orange-200 text-orange-600',
-    red: 'bg-red-50 border-red-200 text-red-600'
+    blue: 'bg-blue-500/10 border-blue-500/30 text-blue-400',
+    green: 'bg-green-500/10 border-green-500/30 text-green-400',
+    purple: 'bg-purple-500/10 border-purple-500/30 text-purple-400',
+    orange: 'bg-orange-500/10 border-orange-500/30 text-orange-400',
+    red: 'bg-red-500/10 border-red-500/30 text-red-400'
   };
 
   return (
@@ -80,8 +80,8 @@ const Services = () => {
               className="bg-dark-900/80 backdrop-blur-sm rounded-xl p-8 shadow-hard hover:shadow-gold transition-all duration-300 border border-secondary-600/30 group"
             >
               {/* Service Icon */}
-              <div className="w-16 h-16 bg-secondary-500/20 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 border border-secondary-600/30">
-                <service.icon className="w-8 h-8 text-secondary-400" />
+              <div className={`w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 border ${colorClasses[service.color] || 'bg-secondary-500/20 border-secondary-600/30 text-secondary-400'}`}>
+                <service.icon className="w-8 h-8" />
               </div>
 
               {/* Service Title */}
